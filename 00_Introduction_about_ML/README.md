@@ -79,7 +79,7 @@
 </details>
 
 
-####Batch and Online Learning
+#### Batch and Online Learning
 
 <details>
     <summary> <b> Batch Learning ( Offline learning ): </b> </summary>
@@ -99,7 +99,7 @@
 
 
 
-##Two main approaches to generalization:
+## Two main approaches to generalization:
 
 <details>
     <summary> <b> Instance-based Learning: </b> </summary>
