@@ -116,3 +116,62 @@
 - For example, the data is given and from this we use any tools to plot the graph and recognize that seem to be a trend in the graph. Although the data is *noisy,* it still look like linearly. So you decide to select *linear model* to make a prediction this step is called *model selection*.
 </details>
 
+## Challenging in Machine Learning
+
+
+<details>
+<summary> <b> Insufficient Quantity of Training Data </b> </summary>
+
+- For most Machine Learning algorithms that take a lot of data to work properly.
+- For example, the children is able to recognize the apple after 4 or 5 images but the system may need a thousands or even millions of images to be able to recognize the apple
+</details>
+
+
+<details>
+<summary> <b> Poor Quantity Data </b> </summary>
+
+- If your training data is full of errors, outliers and noise, it will make harder for the system to perform well.
+- There is a reason why most data scientist spend most of their time just cleaning up the training data.
+</details>
+
+
+
+<details>
+<summary> <b> Irrelevant Features </b> </summary>
+
+- I think you have been heard about **garbage in, garbage out**. If the training contains too many irrelevant features, the system will be incapable of giving accurate answer.
+- We come up with the process, called *feature engineering*, includes:
+  - *Feature selection:* selecting the most useful feature to train on among existing features.
+  - *Feature extraction:* combining existing features to produce a more useful ones.
+</details>
+
+
+
+<details>
+<summary> <b> Overfitting the Training Data</b> </summary>
+
+- Its means that the model performs well on the training data, but it does bad on the testing set.
+</details>
+
+
+
+<details>
+<summary> <b> Underfitting the Training Data </b> </summary>
+
+- *Underfitting* is the opposite of overfitting. It occurs when your model is too simple to learn the structure of data. Therefore, its prediction are bound to be inaccurate, even on the training set.
+</details>
+
+
+
+## Testing and Validating
+- The only way to know how performance of the model is to try it out on new case. Then we will split data into two sets: *training set* and *test set*.
+- Simply by the name, you train your model using training set and test it on the test set. By estimating the error you can know how well the model performance. The error on the new case we call it *generalization error*.
+- If the training error is low, but the generalization error is high, it means that your model is overfitting on the training set.
+
+<b> Hyperparameter Tuning and Model Selection </b>
+- How can you decide to choose between 2 models? -> train both and compare how well they are on
+- After compare 2 model, suppose linear model is better and you want to apply some regularization to avoid overfitting. How do you choose the regularization hyperparameter? -> Suppose you have 5 different parameter then you train 5 different model. After that you have the best parameter with the lowest generalization error (assume 5%).
+- You launch it to production but the problem occurs. In the new dataset its produce 15% error. So the problem in here that you just adapted and adjust parameter the model to produce the best model for *particular set* not perform well on new data.
+- **The solution** is we have another set call *validation set* that is separated from the training set. You train multiple model with specific hyperparameter on the reduce training set (full training set - validation set) and select the model perform best on validation test. After this you train this best model on the full training set (include validation), this give you the final model. You evaluate the final model on test set to see the generalization error.
+- However, if validation set is too small, then the model will be imprecise and if the validation set is too large then the remaining training is small. The solution is perform *cross-validation*, using many small validation sets. Each model is evaluated once per validation test, and calculate average all the evaluation of a model, we will get much more accurate performance.
+
