@@ -9,9 +9,9 @@ I'm challenging to myself to learn Machine Learning Algorithms, as much as I can
 The list will be updated and added additional algorithm in the progress when I learning.
 
 - Getting familiar with:
-  - [ ] Numpy.
-  - [ ] Pandas
-  - [ ] Matplotlib
+  - [x] Numpy.
+  - [x] Pandas
+  - [x] Matplotlib
   - [ ] Seaborn
 - Supervised Learning
   - [ ] Linear Regression
