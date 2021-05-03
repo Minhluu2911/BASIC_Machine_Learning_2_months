@@ -12,7 +12,7 @@ The list will be updated and added additional algorithm in the progress when I l
   - [x] Numpy.
   - [x] Pandas
   - [x] Matplotlib
-  - [ ] Seaborn
+  - [x] Seaborn
 - Supervised Learning
   - [ ] Linear Regression
   - [ ] Logistic Regression
