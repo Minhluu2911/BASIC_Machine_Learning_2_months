@@ -33,12 +33,12 @@ I will go through each of this below.
     <!-- $\hat{y} = \theta_0 + \theta_1x_1 + \theta_2x_2 + ... + \theta_nx_n$ -->
     <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{y}&space;=&space;\theta_0&space;&plus;&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;...&space;&plus;&space;\theta_nx_n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{y}&space;=&space;\theta_0&space;&plus;&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;...&space;&plus;&space;\theta_nx_n" title="\hat{y} = \theta_0 + \theta_1x_1 + \theta_2x_2 + ... + \theta_nx_n" /></a>
 
-    - $\hat{y}$ is the predicted value
+    - <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{y}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{y}" title="\hat{y}" /></a> is the predicted value
     - n is the number of features
-    - $x_i$ is the $i^{th}$ feature value
-    - $\theta_j$ is the $j^{th}$ model parameter ( including the bias term $\theta_0$ and the feature weights $\theta_1, \theta_2, ...,\theta_n$ )
+    - <a href="https://www.codecogs.com/eqnedit.php?latex=x_i" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x_i" title="x_i" /></a> is the <a href="https://www.codecogs.com/eqnedit.php?latex=i^{th}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?i^{th}" title="i^{th}" /></a> feature value
+    - <a href="https://www.codecogs.com/eqnedit.php?latex=\theta_j" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta_j" title="\theta_j" /></a> is the <a href="https://www.codecogs.com/eqnedit.php?latex=j^{th}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?j^{th}" title="j^{th}" /></a> model parameter ( including the bias term $\theta_0$ and the feature weights <a href="https://www.codecogs.com/eqnedit.php?latex=\theta_1,&space;\theta_2,&space;...,\theta_n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\theta_1,&space;\theta_2,&space;...,\theta_n" title="\theta_1, \theta_2, ...,\theta_n" /></a> )
 2. **MSE cost function:**
 
-    $J(\theta) = \frac1m \sum_{i=1}^m (\theta^T x^{(i)} - y^{(i)})^2$
+    <img src="https://render.githubusercontent.com/render/math?math=J(\theta) = \frac1m \sum_{i=1}^m (\theta^T x^{(i)} - y^{(i)})^2">
 
 3. **Our target is to find the model parameter (or feature weights) $\theta$ to minimize the cost function above**
