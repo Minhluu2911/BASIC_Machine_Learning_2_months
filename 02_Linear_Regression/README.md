@@ -29,14 +29,16 @@ I will go through each of this below.
 **We have know that what is the linear regression model prediction. I just summarize some important thing about this:**
 
 1. **Equation form:**
-    ![1](https://bit.ly/3egiSIA)
 
-    - ![2](https://bit.ly/3ddLuPB) is the predicted value
+    <!-- $\hat{y} = \theta_0 + \theta_1x_1 + \theta_2x_2 + ... + \theta_nx_n$ -->
+    <a href="https://www.codecogs.com/eqnedit.php?latex=\hat{y}&space;=&space;\theta_0&space;&plus;&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;...&space;&plus;&space;\theta_nx_n" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\hat{y}&space;=&space;\theta_0&space;&plus;&space;\theta_1x_1&space;&plus;&space;\theta_2x_2&space;&plus;&space;...&space;&plus;&space;\theta_nx_n" title="\hat{y} = \theta_0 + \theta_1x_1 + \theta_2x_2 + ... + \theta_nx_n" /></a>
+
+    - $\hat{y}$ is the predicted value
     - n is the number of features
-    - ![3](https://bit.ly/N4rBh6) is the ![4](https://bit.ly/3nSdHSk) feature value
-    - ![5](https://bit.ly/3aZMoQM) is the ![6](https://bit.ly/3th9f0z) model parameter ( including the bias term ![7](https://bit.ly/3vFSsWi) and the feature weights ![8](https://bit.ly/3einbDg) )
+    - $x_i$ is the $i^{th}$ feature value
+    - $\theta_j$ is the $j^{th}$ model parameter ( including the bias term $\theta_0$ and the feature weights $\theta_1, \theta_2, ...,\theta_n$ )
 2. **MSE cost function:**
 
-    ![9](https://bit.ly/3xKQV39)
+    $J(\theta) = \frac1m \sum_{i=1}^m (\theta^T x^{(i)} - y^{(i)})^2$
 
-3. **Our target is to find the model parameter (or feature weights) ![10](https://bit.ly/2KkR7PC) to minimize the cost function above**
+3. **Our target is to find the model parameter (or feature weights) $\theta$ to minimize the cost function above**
