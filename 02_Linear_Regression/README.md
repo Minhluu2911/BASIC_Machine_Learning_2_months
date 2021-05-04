@@ -41,4 +41,10 @@ I will go through each of this below.
 
     <img src="https://render.githubusercontent.com/render/math?math=J(\theta) = \frac1m \sum_{i=1}^m (\theta^T x^{(i)} - y^{(i)})^2">
 
-3. **Our target is to find the model parameter (or feature weights) $\theta$ to minimize the cost function above**
+3. **Our target is to find the model parameter (or feature weights) <img src="https://render.githubusercontent.com/render/math?math=\theta">  to minimize the cost function above**
+
+
+<!-- equation do not showing in github
+https://www.codecogs.com/latex/eqneditor.php
+https://gist.github.com/a-rodin/fef3f543412d6e1ec5b6cf55bf197d7b
+ -->
