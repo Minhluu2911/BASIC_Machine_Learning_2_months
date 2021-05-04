@@ -29,14 +29,14 @@ I will go through each of this below.
 **We have know that what is the linear regression model prediction. I just summarize some important thing about this:**
 
 1. **Equation form:**
-    ![](https://bit.ly/3egiSIA)
+    [](https://bit.ly/3egiSIA)
 
-    - ![](https://bit.ly/3ddLuPB) is the predicted value
+    - [](https://bit.ly/3ddLuPB) is the predicted value
     - n is the number of features
-    - ![](https://bit.ly/N4rBh6) is the ![](https://bit.ly/3nSdHSk) feature value
-    - ![](https://bit.ly/3aZMoQM) is the ![](https://bit.ly/3th9f0z) model parameter ( including the bias term ![](https://bit.ly/3vFSsWi) and the feature weights ![](https://bit.ly/3einbDg) )
+    - [](https://bit.ly/N4rBh6) is the [](https://bit.ly/3nSdHSk) feature value
+    - [](https://bit.ly/3aZMoQM) is the [](https://bit.ly/3th9f0z) model parameter ( including the bias term [](https://bit.ly/3vFSsWi) and the feature weights [](https://bit.ly/3einbDg) )
 2. **MSE cost function:**
 
-    ![](https://bit.ly/3xKQV39)
+    [](https://bit.ly/3xKQV39)
 
-3. **Our target is to find the model parameter (or feature weights) ![](https://bit.ly/2KkR7PC) to minimize the cost function above**
+3. **Our target is to find the model parameter (or feature weights) [](https://bit.ly/2KkR7PC) to minimize the cost function above**
