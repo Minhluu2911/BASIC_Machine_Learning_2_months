@@ -29,8 +29,9 @@ I will go through each of this below.
 **We have know that what is the linear regression model prediction. I just summarize some important thing about this:**
 
 1. **Equation form:**
+    <img src="https://render.githubusercontent.com/render/math?math=\hat{y} = \theta_0 + \theta_1x_1 + \theta_2x_2 + ... + \theta_nx_n">
 
-    $\hat{y} = \theta_0 + \theta_1x_1 + \theta_2x_2 + ... + \theta_nx_n$
+    $$
 
     - $\hat{y}$ is the predicted value
     - n is the number of features
