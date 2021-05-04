@@ -29,16 +29,14 @@ I will go through each of this below.
 **We have know that what is the linear regression model prediction. I just summarize some important thing about this:**
 
 1. **Equation form:**
-    <img src="https://render.githubusercontent.com/render/math?math=\hat{y} = \theta_0 + \theta_1x_1 + \theta_2x_2 + ... + \theta_nx_n">
+    ![](https://bit.ly/3egiSIA)
 
-    $$
-
-    - $\hat{y}$ is the predicted value
+    - ![](https://bit.ly/3ddLuPB) is the predicted value
     - n is the number of features
-    - $x_i$ is the $i^{th}$ feature value
-    - $\theta_j$ is the $j^{th}$ model parameter ( including the bias term $\theta_0$ and the feature weights $\theta_1, \theta_2, ...,\theta_n$ )
+    - ![](https://bit.ly/N4rBh6) is the ![](https://bit.ly/3nSdHSk) feature value
+    - ![](https://bit.ly/3aZMoQM) is the ![](https://bit.ly/3th9f0z) model parameter ( including the bias term ![](https://bit.ly/3vFSsWi) and the feature weights ![](https://bit.ly/3einbDg) )
 2. **MSE cost function:**
 
-    $J(\theta) = \frac1m \sum_{i=1}^m (\theta^T x^{(i)} - y^{(i)})^2$
+    ![](https://bit.ly/3xKQV39)
 
-3. **Our target is to find the model parameter (or feature weights) $\theta$ to minimize the cost function above**
+3. **Our target is to find the model parameter (or feature weights) ![](https://bit.ly/2KkR7PC) to minimize the cost function above**
