@@ -14,7 +14,7 @@ The list will be updated and added additional algorithm in the progress when I l
   - [x] Matplotlib
   - [x] Seaborn
 - Supervised Learning
-  - [ ] Linear Regression
+  - [x] Linear Regression
   - [ ] Logistic Regression
   - [ ] K-Nearest Neighbor
   <!-- - [ ] Support Vector Machine (SVM) -->

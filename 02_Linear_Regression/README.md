@@ -20,7 +20,7 @@
 I will go through each of this below.
 
 - **Normal equation:** this method directly compute the model parameters that best fits the model to the training set. Other way to explain, It compute the model parameters that minimize the cost function directly
-- **Gradient descent:** this method using an iterative optimization approach to compute the model parameters over the time to minimize the cost function.
+- **[Gradient descent](https://www.youtube.com/watch?v=IHZwWFHWa-w):** this method using an iterative optimization approach to compute the model parameters over the time to minimize the cost function.
 
 ## The general form of linear regression
 
