@@ -15,7 +15,7 @@ The list will be updated and added additional algorithm in the progress when I l
   - [x] Seaborn
 - Supervised Learning
   - [x] Linear Regression
-  - [ ] Logistic Regression
+  - [x] Logistic Regression
   - [ ] K-Nearest Neighbor
   <!-- - [ ] Support Vector Machine (SVM) -->
   - [ ] Decision Trees and Random Forests
