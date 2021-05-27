@@ -16,12 +16,12 @@ The list will be updated and added additional algorithm in the progress when I l
 - Supervised Learning
   - [x] Linear Regression
   - [x] Logistic Regression
-  - [ ] K-Nearest Neighbor
+  - [x] K-Nearest Neighbor
   <!-- - [ ] Support Vector Machine (SVM) -->
   - [ ] Decision Trees and Random Forests
   <!-- - [ ] Neural networks -->
 - Unsupervised Learning
-  - [ ] K-Means
+  - [x] K-Means
   <!-- - [ ] DBSCAN
   - [ ] Gaussian Mixture -->
 
