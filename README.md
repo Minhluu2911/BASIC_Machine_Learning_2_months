@@ -18,7 +18,7 @@ The list will be updated and added additional algorithm in the progress when I l
   - [x] Logistic Regression
   - [x] K-Nearest Neighbor
   <!-- - [ ] Support Vector Machine (SVM) -->
-  - [ ] Decision Trees and Random Forests
+  - [x] Decision Trees and Random Forests
   <!-- - [ ] Neural networks -->
 - Unsupervised Learning
   - [x] K-Means
